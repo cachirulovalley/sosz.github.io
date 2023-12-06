@@ -1,0 +1,419 @@
+:root {
+  --main-red-color: #fe0000;
+  --main-black-color: black;
+  --main-white-color: white;
+  --year-main-color: #62c167;
+}
+
+#layer-to-hide {
+  z-index: 99999;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+body {
+  background-color: var(--main-black-color);
+  color: var(--main-white-color);
+  font-family: "Onest", sans-serif;
+}
+
+h1 {
+  color: var(--year-main-color);
+}
+
+h2 {
+  color: var(--year-main-color);
+}
+
+a {
+  color: var(--year-main-color);
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.light {
+  font-weight: lighter;
+}
+
+.top-label {
+  background-color: var(--main-red-color);
+  color: var(--main-black-color);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  white-space: nowrap;
+  padding: 2px;
+  font-weight: lighter;
+  z-index: 9999;
+}
+
+.home {
+  margin: auto;
+  max-width: 1168px;
+  text-align: center;
+  position: relative;
+}
+
+.home .logo {
+  position: relative;
+  z-index: 2;
+  max-width: 80%;
+  max-height: 450px;
+}
+
+.home-square {
+  left: 0;
+  top: 20px;
+  position: absolute;
+}
+
+.home-square2 {
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+.home-cta {
+  position: relative;
+  z-index: 2;
+}
+
+.home-cta-city {
+  border: 1px solid var(--year-main-color);
+  background-color: var(--year-main-color);
+  color: var(--main-black-color);
+  border-radius: 50px;
+  padding: 5px 15px 5px 15px;
+}
+
+.home-cta-date {
+  border: 1px solid var(--year-main-color);
+  color: var(--year-main-color);
+  border-radius: 50px;
+  padding: 5px 15px 5px 15px;
+}
+
+.home-cta-button {
+  border: 1px solid var(--year-main-color);
+  color: var(--year-main-color);
+  border-radius: 50px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+}
+
+.home-cta-button:hover {
+  border: 1px solid var(--year-main-color);
+  background-color: var(--year-main-color);
+  color: var(--main-black-color);
+}
+
+.section {
+  margin-top: 50px;
+  position: relative;
+}
+
+.section-base {
+  max-width: 1168px;
+  margin: 50px auto 0 auto;
+}
+
+.section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.col-half {
+  flex-basis: calc(50% - 20px);
+}
+
+.col-half-gallery {
+  flex: 50%;
+}
+
+.col-half+.col-half {
+  padding-left: 100px;
+}
+
+.schedule {
+  background-color: var(--year-main-color);
+  margin-left: 5%;
+  border-radius: 50px 0 0 50px;
+  border-bottom: 50px;
+  color: var(--main-black-color);
+  padding: 10px 10px 20px 50px;
+  display: block;
+  position: relative;
+}
+
+.schedule-square {
+  right: 0;
+  top: -40px;
+  position: absolute;
+}
+
+.schedule-square2 {
+  left: -120px;
+  bottom: 20px;
+  position: absolute;
+}
+
+.schedule .section-base {
+  margin-top: 0;
+}
+
+.behaviour .section-base {
+  margin-top: 0;
+}
+
+.schedule h2 {
+  color: var(--main-black-color);
+}
+
+.schedule table {
+  margin: 0 auto;
+  font-family: 'Space Mono', monospace;
+  font-size: 18px;
+}
+
+.schedule table td {
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+
+.schedule table td + td {
+  padding-left: 20px;
+}
+
+.gallery {
+  position: relative;
+}
+
+.gallery-square {
+  left: 0px;
+  top: 60px;
+  position: absolute;
+  width: 200px;
+}
+
+.gallery-square2 {
+  right: 0;
+  bottom: 60px;
+  position: absolute;
+  width: 200px;
+}
+
+.button-gallery {
+  display: block;
+  background-color: var(--year-main-color);
+  border-radius: 10px;
+  padding: 50px 0 50px 0;
+  text-align: center;
+  text-decoration: none;
+  color: var(--main-black-color);
+  margin: 10px;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
+}
+
+.button-gallery:hover {
+  opacity: 0.7;
+}
+
+.event-sponsor-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.event-sponsor-list li {
+  display: inline-block;
+  margin: 20px;
+  background: transparent;
+}
+
+.sponsor {
+  text-indent: -9999px;
+  transition: all 0.4s ease-in-out;
+  height: 90px;
+  width: 160px;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  display: block;
+  background-size: 100%;
+  filter: brightness(0) invert(1);
+}
+
+.sponsor:hover {
+  opacity: 0.7;
+}
+
+.sponsor a {
+  cursor: pointer;
+}
+
+.want-sponsor {
+  color: var(--main-white-color);
+}
+
+.want-sponsor a {
+  text-decoration: underline;
+  color: var(--main-white-color);
+}
+
+#etopia-map {
+  width: 100%;
+  height: 400px;
+}
+
+.behaviour {
+  background-color: var(--year-main-color);
+  margin-right: 5%;
+  border-radius: 0 50px 50px 0;
+  border-bottom: 50px;
+  color: var(--main-black-color);
+  padding: 10px 10px 20px 50px;
+  display: block;
+}
+
+.behaviour-square {
+  right: 0px;
+  top: -20px;
+  position: absolute;
+}
+
+.behaviour-square2 {
+  left: -250px;
+  bottom: 20px;
+  position: absolute;
+}
+
+.behaviour h2 {
+  color: var(--main-black-color);
+}
+
+.behaviour a {
+  color: var(--main-black-color);
+}
+
+.behaviour p {
+  padding-right: 5%;
+}
+
+.footer {
+  left: 0;
+  right: 0;
+  width: 100%;
+  padding: 20px 0 20px 0;
+  text-align: center;
+}
+
+.footer a {
+  color: var(--main-red-color);
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+@media only screen and (max-width: 940px) {
+  .section-wrapper {
+    flex-basis: 100%;
+    display: block;
+  }
+
+  .section-wrapper.gallery {
+    flex-basis: 50%;
+    display: flex;
+  }
+
+  .section-base {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .col-half+.col-half {
+    padding-left: 0px;
+  }
+
+  .schedule table {
+    font-size: 12px;
+  }
+
+  .home-square, .home-square2 {
+    max-width: 200px;
+  }
+  
+  .schedule-square, .schedule-square2, .behaviour-square, .behaviour-square2 {
+    max-width: 80px;
+  }
+
+  .schedule-square2 {
+    left: -60px;
+  }
+
+  .behaviour-square2 {
+    left: -80px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-wrapper.gallery {
+    flex-basis: 100%;
+    display: block;
+  }
+
+  .event-sponsor-list li {
+    display: block;
+  }
+  .sponsor {
+    margin: 0 auto;
+  }
+  .schedule {
+    padding: 5px
+  }
+  .behaviour {
+    padding: 5px;
+  }
+  .home-square, .home-square2 {
+    max-width: 100px;
+  }
+  
+  .schedule-square, .schedule-square2, .behaviour-square, .behaviour-square2 {
+    max-width: 100px;
+  }
+
+  .schedule-square2 {
+    left: -60px;
+  }
+
+  .behaviour-square2 {
+    left: -80px;
+  }
+  .home-cta-button {
+    display: inline-block;
+    margin-top: 10px;
+  }
+}
