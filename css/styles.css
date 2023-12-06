@@ -186,6 +186,7 @@ a {
   margin: 0 auto;
   font-family: 'Space Mono', monospace;
   font-size: 18px;
+  width: 100%;
 }
 
 .schedule table td {
@@ -359,7 +360,7 @@ a {
   }
 
   .schedule table {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .home-square, .home-square2 {
@@ -392,7 +393,7 @@ a {
     margin: 0 auto;
   }
   .schedule {
-    padding: 5px
+    padding: 5px;
   }
   .behaviour {
     padding: 5px;
