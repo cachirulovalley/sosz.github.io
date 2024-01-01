@@ -11,8 +11,3 @@ $(document).ready(function(){
   L.marker([41.659472,-0.907274]).addTo(map);
   map.addLayer(layer);
 });
-
-var el = document.getElementById('layer-to-hide');
-el.addEventListener('long-press', function(e) {
-  el.style.display = "none";
-});

@@ -69,8 +69,13 @@ a {
 .home .logo {
   position: relative;
   z-index: 2;
-  max-width: 80%;
-  max-height: 450px;
+}
+
+@media (max-width: 1920px) {
+  .home .logo {
+    max-width: 80%;
+    max-height: 450px;
+  }
 }
 
 .home-square {
@@ -106,7 +111,7 @@ a {
 }
 
 .home-cta-button {
-  border: 1px solid var(--year-main-color);
+  /*border: 1px solid var(--year-main-color);*/
   color: var(--year-main-color);
   border-radius: 50px;
   padding: 5px 15px 5px 15px;
@@ -114,9 +119,9 @@ a {
 }
 
 .home-cta-button:hover {
-  border: 1px solid var(--year-main-color);
+  /*border: 1px solid var(--year-main-color);
   background-color: var(--year-main-color);
-  color: var(--main-black-color);
+  color: var(--main-black-color);*/
 }
 
 .section {
@@ -148,14 +153,29 @@ a {
 }
 
 .schedule {
-  background-color: var(--year-main-color);
-  margin-left: 5%;
-  border-radius: 50px 0 0 50px;
-  border-bottom: 50px;
   color: var(--main-black-color);
-  padding: 10px 10px 20px 50px;
+  padding: 20px 0px 50px 0px;
   display: block;
   position: relative;
+}
+
+.schedule-bg {
+  background-color: var(--year-main-color);
+  margin-left: 5%;
+  position: absolute;
+  z-index: 0;
+  width: 95%;
+  height: 100%;
+  border-radius: 50px 0 0 50px;
+  border-bottom: 50px;
+}
+
+.schedule-time {
+  text-align: right;
+}
+
+.schedule-info {
+  font-family: "Onest", sans-serif;
 }
 
 .schedule-square {
@@ -189,9 +209,13 @@ a {
   width: 100%;
 }
 
+.schedule table tr:first-of-type td {
+  border-top: 1px solid black;
+}
+
 .schedule table td {
   border-bottom: 1px solid black;
-  padding: 5px;
+  padding: 5px 20px 5px 5px;
 }
 
 .schedule table td + td {
@@ -200,6 +224,7 @@ a {
 
 .gallery {
   position: relative;
+  margin-top: -50px;
 }
 
 .gallery-square {
@@ -224,10 +249,11 @@ a {
   text-align: center;
   text-decoration: none;
   color: var(--main-black-color);
-  margin: 10px;
+  margin: 10px 5px;
   font-weight: bold;
   position: relative;
   z-index: 2;
+  font-size: 26px;
 }
 
 .button-gallery:hover {
@@ -279,16 +305,28 @@ a {
 #etopia-map {
   width: 100%;
   height: 400px;
+  border-radius: 20px;
 }
 
 .behaviour {
+  color: var(--main-black-color);
+  padding: 20px 0 50px 0;
+  position: relative;
+}
+
+.behaviour-bg {
   background-color: var(--year-main-color);
   margin-right: 5%;
+  position: absolute;
+  z-index: 0;
+  width: 95%;
+  height: 100%;
   border-radius: 0 50px 50px 0;
   border-bottom: 50px;
-  color: var(--main-black-color);
-  padding: 10px 10px 20px 50px;
-  display: block;
+}
+
+.behaviour a {
+  text-decoration: underline;
 }
 
 .behaviour-square {
@@ -331,7 +369,8 @@ a {
   border: solid black;
   border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 3px;
+  padding: 6px;
+  font-size: 26px;
 }
 
 .right {
@@ -373,6 +412,12 @@ a {
 
   .schedule-square2 {
     left: -60px;
+  }
+
+  .schedule .section-base {
+    margin-top: 0;
+    padding-left: 25px;
+    padding-right: 0;
   }
 
   .behaviour-square2 {
@@ -418,3 +463,31 @@ a {
     margin-top: 10px;
   }
 }
+
+/*
+ ----------- Scroll text -------- 
+ */
+.top-label {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.top-label-marquee {
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee 30s linear infinite;
+}
+
+.top-label-marquee p {
+  display: inline-block;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    transform: translate3d(-50%, 0, 0);
+  }
+}
+
