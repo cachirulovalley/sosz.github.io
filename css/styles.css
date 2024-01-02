@@ -462,6 +462,20 @@ a {
     display: inline-block;
     margin-top: 10px;
   }
+
+  .schedule-bg {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .behaviour-bg {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  .schedule-time {
+    width: 50%;
+  }
 }
 
 /*
