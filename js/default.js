@@ -10,4 +10,10 @@ $(document).ready(function(){
   });
   L.marker([41.659472,-0.907274]).addTo(map);
   map.addLayer(layer);
+
+  // Go to patros link
+  var patrosScrollFrom = document.querySelectorAll('.home-cta-patro')[0];
+  var patrosScrollTo = document.querySelectorAll('.patros')[0];
+
+  patrosScrollFrom.onclick = function() { patrosScrollTo.scrollIntoView({ behavior: 'smooth' }); };
 });

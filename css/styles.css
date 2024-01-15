@@ -103,6 +103,11 @@ a {
   padding: 5px 15px 5px 15px;
 }
 
+.home-cta-patro {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
 .home-cta-date {
   border: 1px solid var(--year-main-color);
   color: var(--year-main-color);
@@ -378,6 +383,18 @@ a {
   -webkit-transform: rotate(-45deg);
 }
 
+@media only screen and (max-width: 1280px) {
+  .schedule-bg {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .behaviour-bg {
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
 @media only screen and (max-width: 940px) {
   .section-wrapper {
     flex-basis: 100%;
@@ -461,16 +478,6 @@ a {
   .home-cta-button {
     display: inline-block;
     margin-top: 10px;
-  }
-
-  .schedule-bg {
-    margin-left: 0;
-    width: 100%;
-  }
-
-  .behaviour-bg {
-    margin-right: 0;
-    width: 100%;
   }
 
   .schedule-time {
