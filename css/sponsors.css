@@ -83,7 +83,7 @@
   background-image: url(../img/logos/runroom.png);
 }
 .sponsor-manfred {
-  background-image: url(../img/logos/manfred.png);
+  background-image: url(../img/logos/manfred_white.svg);
 }
 .sponsor-kanbanize {
   background-image: url(../img/logos/kanbanize.png);
@@ -114,4 +114,7 @@
 }
 .sponsor-sysdig {
   background-image: url(../img/logos/sysdig.svg);
+}
+.sponsor-codely {
+  background-image: url(../img/logos/codely_white.svg);
 }
