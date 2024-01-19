@@ -31,9 +31,10 @@
 .sponsor-etopia {
   width: 107px;
   background-image: url(../img/logos/etopia.png);
+  filter: brightness(0) invert(1);
 }
 .sponsor-ayuntamiento {
-  background-image: url(../img/logos/ayuntamiento.png);
+  background-image: url(../img/logos/ayuntamiento2.jpeg);
 }
 .sponsor-ambar {
   width: 140px;
@@ -63,8 +64,8 @@
   background-image: url(../img/logos/torresburriel.png);
 }
 .sponsor-localistico {
-  width: 143px;
-  background-image: url(../img/logos/localistico.png);
+  /*width: 143px;*/
+  background-image: url(../img/logos/localistico_white.svg);
 }
 .sponsor-millolab {
   width: 143px;
@@ -84,6 +85,7 @@
 }
 .sponsor-manfred {
   background-image: url(../img/logos/manfred_white.svg);
+  filter: brightness(0) invert(1);
 }
 .sponsor-kanbanize {
   background-image: url(../img/logos/kanbanize.png);
@@ -117,4 +119,10 @@
 }
 .sponsor-codely {
   background-image: url(../img/logos/codely_white.svg);
+}
+.sponsor-qatium {
+  background-image: url(../img/logos/qatium.png);
+}
+.sponsor-audiense {
+  background-image: url(../img/logos/audiense.svg);
 }

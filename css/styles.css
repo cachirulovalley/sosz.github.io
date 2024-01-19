@@ -287,7 +287,6 @@ a {
   background-repeat: no-repeat;
   display: block;
   background-size: 100%;
-  filter: brightness(0) invert(1);
 }
 
 .sponsor:hover {
