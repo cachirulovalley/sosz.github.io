@@ -95,38 +95,56 @@ a {
   z-index: 2;
 }
 
-.home-cta-city {
+.home-city {
+  color: var(--main-white-color);
+  font-family: "Onest", sans-serif;
+  font-size: 26px;
+  font-weight: bolder;
+  margin-top: -10px;
+}
+
+.home-cta {
   border: 1px solid var(--year-main-color);
   background-color: var(--year-main-color);
   color: var(--main-black-color);
-  border-radius: 50px;
-  padding: 5px 15px 5px 15px;
+  border-radius: 20px;
+  padding: 30px;
+  text-decoration: none;
+  width: auto;
+  display: inline-block;
+  font-family: "Onest", sans-serif;
 }
 
-.home-cta-patro {
-  text-decoration: underline;
+.home-cta-patro, .home-cta-button {
   cursor: pointer;
-}
-
-.home-cta-date {
-  border: 1px solid var(--year-main-color);
-  color: var(--year-main-color);
-  border-radius: 50px;
+  border: 1px solid var(--main-black-color);
+  background-color: var(--year-main-color);
+  color: var(--main-black-color);
+  border-radius: 20px;
   padding: 5px 15px 5px 15px;
+  font-size: 18px;
+  font-weight: bolder;
+  display: inline-block;
 }
 
 .home-cta-button {
-  /*border: 1px solid var(--year-main-color);*/
-  color: var(--year-main-color);
-  border-radius: 50px;
-  padding: 5px 15px 5px 15px;
-  text-decoration: none;
+  /* Borrar al estar disponibles */
+  border: 1px solid var(--year-main-color) !important;
+  cursor: default !important;
 }
 
 .home-cta-button:hover {
-  /*border: 1px solid var(--year-main-color);
-  background-color: var(--year-main-color);
-  color: var(--main-black-color);*/
+  /* Borrar al estar disponibles */
+  border: 1px solid var(--year-main-color) !important;
+  background-color: var(--year-main-color) !important;
+  color: var(--main-black-color);
+  cursor: default !important;
+}
+
+.home-cta-patro:hover, .home-cta-button:hover {
+  border: 1px solid var(--main-black-color);
+  background-color: var(--main-white-color);
+  color: var(--main-black-color);
 }
 
 .section {

@@ -97,7 +97,8 @@
   background-image: url(../img/logos/ethichub.png);
 }
 .sponsor-vueling {
-  background-image: url(../img/logos/vueling.png);
+  background-image: url(../img/logos/vueling_white.png);
+  filter: brightness(0) invert(1);
 }
 .sponsor-numericco {
   background-image: url(../img/logos/numericco.svg);
