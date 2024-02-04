@@ -180,6 +180,11 @@ a {
   position: relative;
 }
 
+.schedule a {
+  text-decoration: underline;
+  color: var(--main-black-color);
+}
+
 .schedule-bg {
   background-color: var(--year-main-color);
   margin-left: 5%;
