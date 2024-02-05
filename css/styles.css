@@ -126,23 +126,21 @@ a {
 }
 
 .home-cta-button {
-  /* Borrar al estar disponibles */
-  border: 1px solid var(--year-main-color) !important;
-  cursor: default !important;
-}
-
-.home-cta-button:hover {
-  /* Borrar al estar disponibles */
-  border: 1px solid var(--year-main-color) !important;
-  background-color: var(--year-main-color) !important;
-  color: var(--main-black-color);
-  cursor: default !important;
-}
-
-.home-cta-patro:hover, .home-cta-button:hover {
   border: 1px solid var(--main-black-color);
   background-color: var(--main-white-color);
   color: var(--main-black-color);
+}
+
+.home-cta-patro {
+  border: 1px solid var(--main-black-color);
+  background-color: var(--year-main-color);
+  color: var(--main-black-color);
+}
+
+.home-cta-button:hover, .home-cta-patro:hover  {
+  border: 1px solid var(--main-black-color);
+  background-color: var(--main-black-color);
+  color: var(--main-white-color);
 }
 
 .section {
