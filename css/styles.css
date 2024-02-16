@@ -143,6 +143,21 @@ a {
   color: var(--main-white-color);
 }
 
+.home-cta-button.agotadas, .home-cta-button:hover.agotadas {
+  border: 1px solid var(--main-black-color);
+  background-color: var(--year-main-color);
+  color: var(--main-black-color);
+  opacity: 0.5;
+  cursor: default;
+}
+
+.home-cta img {
+  position: absolute;
+  width: 150px;
+  top: -20px;
+  left: 60px;
+}
+
 .section {
   margin-top: 50px;
   position: relative;
