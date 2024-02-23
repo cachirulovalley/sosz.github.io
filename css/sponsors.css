@@ -36,8 +36,8 @@
   background-image: url(../img/logos/ayuntamiento2.jpeg);
 }
 .sponsor-ambar {
-  width: 140px;
   background-image: url(../img/logos/ambar.png);
+  filter: brightness(0) invert(1);
 }
 .sponsor-holaluz {
   width: 153;
@@ -123,4 +123,11 @@
 }
 .sponsor-audiense {
   background-image: url(../img/logos/audiense.svg);
+}
+.sponsor-tetuanvalley {
+  background-image: url(../img/logos/tetuanvalley_white.png);
+}
+.sponsor-unbocau {
+  width: 90px;
+  background-image: url(../img/logos/unbocau_white.png);
 }
