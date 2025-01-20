@@ -3,12 +3,12 @@ $(document).ready(function(){
   var layer = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',{
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/attribution">CARTO</a>'
   });
-  var map = L.map('etopia-map', {
+  var map = L.map('hiberus-map', {
       scrollWheelZoom: false,
-      center: [41.659472,-0.907274],
+      center: [41.6369216,-0.8996619],
       zoom: 15
   });
-  L.marker([41.659472,-0.907274]).addTo(map);
+  L.marker([41.6369216,-0.8996619]).addTo(map);
   map.addLayer(layer);
 
   // Go to patros link
