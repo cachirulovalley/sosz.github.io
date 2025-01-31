@@ -62,7 +62,7 @@
   filter: brightness(0) invert(1);
 }
 .sponsor-localistico {
-  background-image: url(../img/logos/localistico_white.svg);
+  background-image: url(../img/logos/localistico_2_white.svg);
 }
 .sponsor-millolab {
   width: 143px;
@@ -98,7 +98,7 @@
   filter: brightness(0) invert(1);
 }
 .sponsor-numericco {
-  background-image: url(../img/logos/numericco_white.png);
+  background-image: url(../img/logos/numericco_white.svg);
 }
 .sponsor-panel {
   background-image: url(../img/logos/panel_white.png);
