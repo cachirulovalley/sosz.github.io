@@ -71,6 +71,11 @@ a {
   z-index: 2;
 }
 
+.home .logo25 {
+  max-width: 90%;
+  max-height: 600px;
+}
+
 .home h1 {
   position: relative;
   margin: 0 auto;
@@ -83,10 +88,6 @@ a {
   .home .logo {
     max-width: 80%;
     max-height: 450px;
-  }
-  .home .logo25 {
-    max-width: 90%;
-    max-height: 600px;
   }
 }
 
