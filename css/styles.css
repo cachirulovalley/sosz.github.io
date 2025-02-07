@@ -210,7 +210,8 @@ a {
 
 .schedule a {
   text-decoration: underline;
-  color: var(--main-black-color);
+  color: var(--main-white-color);
+  /* color: var(--main-black-color); */
 }
 
 .schedule-bg {
