@@ -35,8 +35,11 @@
 .sponsor-ayuntamiento {
   background-image: url(../img/logos/ayuntamiento2.jpeg);
 }
+.sponsor-nextdigital {
+  background-image: url(../img/logos/next_digital_white.png);
+}
 .sponsor-ambar {
-  background-image: url(../img/logos/ambar.png);
+  background-image: url(../img/logos/ambar4.png);
   filter: brightness(0) invert(1);
 }
 .sponsor-holaluz {
@@ -81,7 +84,7 @@
   background-image: url(../img/logos/runroom.png);
 }
 .sponsor-manfred {
-  background-image: url(../img/logos/manfred_white.svg);
+  background-image: url(../img/logos/manfred_white_2.svg);
   filter: brightness(0) invert(1);
 }
 .sponsor-kanbanize {
@@ -101,7 +104,7 @@
   background-image: url(../img/logos/numericco_white.svg);
 }
 .sponsor-panel {
-  background-image: url(../img/logos/panel_white.png);
+  background-image: url(../img/logos/panel_white_2.svg);
 }
 .sponsor-plainconcepts {
   background-image: url(../img/logos/plainconcepts.png);
@@ -116,7 +119,7 @@
   background-image: url(../img/logos/sysdig.svg);
 }
 .sponsor-codely {
-  background-image: url(../img/logos/codely_white.svg);
+  background-image: url(../img/logos/codely_white.png);
 }
 .sponsor-qatium {
   background-image: url(../img/logos/qatium.png);
