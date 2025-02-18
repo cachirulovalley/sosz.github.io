@@ -437,6 +437,15 @@ a {
   -webkit-transform: rotate(-45deg);
 }
 
+.video-container {
+  margin: 0 auto;
+  display: table;
+}
+
+.video-container iframe {
+  max-width: 100%;
+}
+
 @media only screen and (max-width: 1280px) {
   .schedule-bg {
     margin-left: 0;
