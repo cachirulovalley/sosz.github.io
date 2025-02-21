@@ -417,11 +417,29 @@ a {
   right: 0;
   width: 100%;
   padding: 20px 0 20px 0;
-  text-align: center;
 }
 
 .footer a {
-  color: var(--main-red-color);
+  color: var(--main-white-color);
+}
+
+.footer a:hover {
+  color: var(--year-main-color);
+  opacity: 0.9;
+}
+
+.footer div {
+  display: inline-flex;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.footer img {
+  background-color: var(--year-main-color);
+  border-radius: 18px;
+  padding: 10px;
+  width: 20px;
+  margin-right: 10px;
 }
 
 .arrow {
