@@ -412,13 +412,6 @@ a {
   padding-right: 5%;
 }
 
-.footer {
-  left: 0;
-  right: 0;
-  width: 100%;
-  padding: 20px 0 20px 0;
-}
-
 .footer a {
   color: var(--main-white-color);
 }
@@ -432,6 +425,7 @@ a {
   display: inline-flex;
   margin-right: 20px;
   align-items: center;
+  margin-bottom: 5px;
 }
 
 .footer img {
@@ -568,6 +562,11 @@ a {
   .home-cta {
     padding: 15px;
   }
+
+  .footer div {
+    display: flex;
+  }
+  
 }
 
 /*
