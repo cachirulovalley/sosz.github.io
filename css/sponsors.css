@@ -72,7 +72,7 @@
   background-image: url(../img/logos/millolab.png);
 }
 .sponsor-str {
-  background-image: url(../img/logos/str_white.svg);
+  background-image: url(../img/logos/str_sistemas.svg);
   filter: brightness(0) invert(1);
 }
 .sponsor-deiser {
@@ -133,4 +133,8 @@
 .sponsor-unbocau {
   width: 90px;
   background-image: url(../img/logos/unbocau_white.png);
+}
+.sponsor-hiberus {
+  background-image: url(../img/logos/hiberus.png);
+  filter: brightness(0) invert(1);
 }
