@@ -118,7 +118,7 @@ a {
   background-color: var(--year-main-color);
   color: var(--main-black-color);
   border-radius: 20px;
-  padding: 30px;
+  padding: 15px;
   text-decoration: none;
   width: auto;
   display: inline-block;
@@ -140,15 +140,21 @@ a {
 
 .home-cta-button {
   border: 1px solid var(--main-black-color);
-  background-color: var(--main-white-color);
+  background-color: var(--main-year-color);
   color: var(--main-black-color);
 }
 
 .home-cta-patro {
   border: 1px solid var(--main-black-color);
   background-color: var(--year-main-color);
-  color: var(--main-white-color);
+  color: var(--main-black-color);
   /*color: var(--main-black-color); */
+}
+
+.home-cta-extra-text {
+  font-weight: bolder;
+  font-size: 18px;
+  margin: 20px;
 }
 
 .home-cta-button:hover, .home-cta-patro:hover  {
