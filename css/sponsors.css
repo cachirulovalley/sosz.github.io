@@ -85,6 +85,7 @@
 .sponsor-runroom {
   width: 143px;
   background-image: url(../img/logos/runroom.png);
+  filter: brightness(0) invert(1);
 }
 .sponsor-manfred {
   background-image: url(../img/logos/manfred_white_2.svg);
@@ -140,4 +141,7 @@
 .sponsor-hiberus {
   background-image: url(../img/logos/hiberus.png);
   filter: brightness(0) invert(1);
+}
+.sponsor-osohub {
+  background-image: url(../img/logos/oso_hub_white.svg);
 }
