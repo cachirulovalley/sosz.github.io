@@ -138,17 +138,10 @@ a {
   margin: 5px;
 }
 
-.home-cta-button {
-  border: 1px solid var(--main-black-color);
-  background-color: var(--main-year-color);
-  color: var(--main-black-color);
-}
-
-.home-cta-patro {
+.home-cta-patro, .home-cta-button {
   border: 1px solid var(--main-black-color);
   background-color: var(--year-main-color);
   color: var(--main-black-color);
-  /*color: var(--main-black-color); */
 }
 
 .home-cta-extra-text {
