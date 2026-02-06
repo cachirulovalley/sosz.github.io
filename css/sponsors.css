@@ -79,7 +79,7 @@
   filter: brightness(0) invert(1);
 }
 .sponsor-deiser {
-  background-image: url(../img/logos/deiser_white.svg);
+  background-image: url(../img/logos/deiser_white.png);
   filter: brightness(0) invert(1);
 }
 .sponsor-runroom {
@@ -144,4 +144,8 @@
 }
 .sponsor-osohub {
   background-image: url(../img/logos/oso_hub_white.svg);
+}
+.sponsor-refine {
+  background-image: url(../img/logos/refine.svg);
+  filter: brightness(0) invert(1);
 }
