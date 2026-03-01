@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="169 68 3112 882">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        isolation: isolate;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        font-family: DaysOne-Regular, 'Days One';
+        font-size: 400px;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-linejoin: round;
+      }
+
+      .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+      }
+
+      .cls-3, .cls-6 {
+        stroke-width: 48px;
+      }
+
+      .cls-4, .cls-5 {
+        stroke-width: 32px;
+      }
+
+      .cls-7 {
+        opacity: .5;
+      }
+
+      .cls-8 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="grey-typo">
+    <g class="cls-1">
+      <text class="cls-2" transform="translate(960.7 663.3)"><tspan class="cls-8" x="0" y="0">R</tspan><tspan x="321.29" y="0">ootNode.es</tspan></text>
+    </g>
+    <g id="grey">
+      <g id="ramas3" class="cls-7">
+        <path class="cls-4" d="M347.9,426.8c19.3,0,37.8-3.6,54.8-10.1"/>
+        <path class="cls-4" d="M575.8,224.9c34.9-6.4,64.8-24.2,86.7-48.8"/>
+        <path class="cls-4" d="M421.9,312.3c-41.7-.6-79.2-17.7-106.4-45.1"/>
+        <path class="cls-4" d="M512.5,459.5c-41.7,0-79.4-16.7-107-43.7"/>
+        <path class="cls-3" d="M361.3,458.9c-39.1-38.9-63.3-92.7-63.3-152.2s45.4-152.3,112.2-188.6"/>
+        <path class="cls-3" d="M512.5,92.2c118.5,0,214.5,96,214.5,214.5s-96,214.5-214.5,214.5"/>
+      </g>
+      <g id="raiz3" class="cls-7">
+        <path id="path3769-748" class="cls-5" d="M444.8,780.6l-92.6-53.4"/>
+        <path id="path3769-749" class="cls-5" d="M664.7,785.3l174.6-100.7"/>
+        <path id="path3769-750" class="cls-5" d="M582.3,728.9l163.8-94.5"/>
+        <path id="path3769-751" class="cls-5" d="M425.3,879.1l60.4-34.9"/>
+        <path id="path3769-752" class="cls-5" d="M298.4,874.8l43.8-25.3"/>
+        <path id="path3769-753" class="cls-5" d="M398,685.1l-81.5-47"/>
+        <path id="path3769-754" class="cls-5" d="M508.4,933.5l-242.1-139.7"/>
+      </g>
+      <g id="tronco4">
+        <path id="path3769-755" class="cls-6" d="M768.5,846.6l-256-147.7"/>
+        <path id="path3769-756" class="cls-6" d="M512.6,235.4l-.2,499.9"/>
+        <path id="path3769-757" class="cls-6" d="M209,802.8l303.5-175.1"/>
+      </g>
+      <g id="detalle4" class="cls-7">
+        <path id="path3769-758" class="cls-5" d="M282.8,746.1l-97.7-56.4"/>
+        <path id="path3769-759" class="cls-5" d="M569.5,891l126.5-73"/>
+        <path class="cls-4" d="M428.3,219.1c17.8,24.2,42.1,42.1,69.2,52.3"/>
+        <path class="cls-4" d="M638.5,333.5c-27.7,31.1-65.3,48.2-103.8,50.8"/>
+      </g>
+    </g>
+  </g>
+</svg>

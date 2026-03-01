@@ -149,3 +149,6 @@
   background-image: url(../img/logos/refine.svg);
   filter: brightness(0) invert(1);
 }
+.sponsor-rootnode {
+  background-image: url(../img/logos/rootnode.svg);
+}
